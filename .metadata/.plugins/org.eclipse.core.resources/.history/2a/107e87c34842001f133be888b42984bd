@@ -1,0 +1,16 @@
+package com.tenco.tboard.util;
+
+import javax.naming.InitialContext;
+import javax.sql.DataSource;
+
+public class DBUtil {
+	
+	private static DataSource dataSource;
+	
+	static {
+		
+		InitialContext ctx = new InitialContext();
+		
+	}
+
+}

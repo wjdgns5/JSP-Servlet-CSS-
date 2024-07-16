@@ -1,0 +1,13 @@
+package com.tenco.model;
+
+import java.util.Date;
+
+public class TodoDTO {
+	
+	private int	id;
+	private int userId;
+	private String title;
+	private String description;
+	private Date dueDate;
+
+}

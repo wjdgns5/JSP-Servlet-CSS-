@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>새 할 일 추가</title>
+</head>
+<body>
+	<h1> ToDo Page </h1>
+	<%-- http://localhost:8080/mvc/todo/add --%>
+	<form action="add" method="post">
+		<label for="title">제목: </label>
+		<input type="text" id="title" name="title" value="코딩연습 무한반복">
+		
+		<label for="title">설명: </label>
+		<input type="text" id="title" name="title" value="코딩연습 무한반복">
+	</form>
+</body>
+</html>

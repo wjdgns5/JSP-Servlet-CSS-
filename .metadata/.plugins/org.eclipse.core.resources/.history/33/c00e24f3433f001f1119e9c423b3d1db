@@ -1,0 +1,28 @@
+<%@page import="com.tenco.model.TodoDTO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>상세보기 화면</title>
+</head>
+<body>
+	<%
+		TodoDTO todo = (TodoDTO)request.getAttribute("todo");
+		if(todo != null){
+	%>
+			<p>제목 : <%= todo.getTitle() %></p> <br>
+			<p>설명 : <%= todo.getDescription() %></p> <br>
+			<p>마감일 : <%= todo.getDueDate() %></p> <br>
+			<p>완료여부 : <%= todo.completedToString() == "true" ? "완료" : "미완료" %></p> <br>
+			<hr><hr>
+			<form action="update" method="get"></form>
+	<% 		
+		} else {
+			out.print("<p> 정보를 불러오는데 실패</p>");
+		}
+	%>
+
+</body>
+</html>

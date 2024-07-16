@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<section name="ImportExportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="250"/>
+			<item key="DIALOG_Y_ORIGIN" value="47"/>
+			<item key="DIALOG_WIDTH" value="525"/>
+			<item key="DIALOG_HEIGHT" value="550"/>
+			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		</section>
+	</section>
+	<section name="WorkbenchPreferenceDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="195"/>
+		<item key="DIALOG_Y_ORIGIN" value="14"/>
+		<item key="DIALOG_WIDTH" value="978"/>
+		<item key="DIALOG_HEIGHT" value="898"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.internal.wizard.AddServletWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+		<section name="NewWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="250"/>
+			<item key="DIALOG_Y_ORIGIN" value="82"/>
+			<item key="DIALOG_WIDTH" value="525"/>
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		</section>
+	</section>
+	<section name="FileExtensionDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="81"/>
+		<item key="DIALOG_Y_ORIGIN" value="186"/>
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_HEIGHT" value="281"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+		<item key="actionSetFilter" value="true"/>
+		<item key="internalFilter" value="true"/>
+		<item key="uncategorizedFilter" value="true"/>
+	</section>
+	<section name="PropertyDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="161"/>
+		<item key="DIALOG_Y_ORIGIN" value="76"/>
+		<item key="DIALOG_WIDTH" value="940"/>
+		<item key="DIALOG_HEIGHT" value="762"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\KDP\Desktop\JSP 프로그래밍 파일 테스트 0716.zip"/>
+			<item value="C:\Users\KDP\Desktop\JSP 프로그래밍 파일 0716.zip"/>
+			<item value="C:\Users\KDP\Desktop\JSP 프로그래밍 연습중 0715.zip"/>
+			<item value="C:\Users\KDP\Desktop\JSP 프로그래밍 연습중 0712.zip"/>
+			<item value="C:\Users\KDP\Desktop\JSP 프로그래밍 연습중 0711.zip"/>
+			<item value="C:\Users\KDP\Desktop\JSP 프로그래밍0711.zip"/>
+			<item value="C:\Users\KDP\Desktop\JSP 프로그래밍0710.zip"/>
+			<item value="C:\Users\KDP\Desktop\JSP 프로그래밍0709.zip"/>
+			<item value="C:\Users\KDP\Desktop\JSP 프로그래밍0708.zip"/>
+			<item value="C:\Users\KDP\Desktop\JSP 프로그래밍0705.zip"/>
+			<item value="C:\Users\KDP\Desktop\JSP 프로그래밍0704.zip"/>
+			<item value="C:\Users\KDP\Desktop\JSP 프로그래밍0703.zip"/>
+			<item value="C:\Users\KDP\Desktop\JSP 프로그래밍 0703.zip"/>
+			<item value="C:\Users\KDP\Desktop\class_flexbox_01.zip"/>
+			<item value="C:\Users\KDP\Desktop\get_post_v1.zip"/>
+			<item value="C:\Users\KDP\Desktop\class_sevlet_01.zip"/>
+			<item value="C:\Users\KDP\Desktop\class_servlet_02.zip"/>
+			<item value="C:\Users\KDP\Desktop\JSP프로그래밍0701.zip"/>
+			<item value="C:\Users\KDP\Desktop\0628.zip"/>
+		</list>
+		<section name="ZipFileExportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="250"/>
+			<item key="DIALOG_Y_ORIGIN" value="47"/>
+			<item key="DIALOG_WIDTH" value="623"/>
+			<item key="DIALOG_HEIGHT" value="622"/>
+			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		</section>
+	</section>
+</section>

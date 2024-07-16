@@ -1,0 +1,16 @@
+package com.tenco.tboard.model;
+
+import java.sql.Timestamp;
+
+public class Board {
+	
+	private int id;
+	private int userId;
+	private String title;
+	private String content;
+	private Timestamp createdAt;
+	
+	
+	
+	
+} // end of Board

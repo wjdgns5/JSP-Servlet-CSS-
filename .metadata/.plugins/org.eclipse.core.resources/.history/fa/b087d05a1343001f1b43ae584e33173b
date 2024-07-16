@@ -1,0 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>게시글 목록</title>
+</head>
+<body>
+	<h2>게시글 목록</h2>
+	<div class="action">
+		<a href="${pageContext.request.contextPath}/board/create">새글 작성하기</a>
+		<a href="${pageContext.request.contextPath}/index.jsp">홈 화면 </a>
+	</div>
+	
+	<!-- board list 생성 예정 -->
+	<!-- 반복문 사용예정  -->
+	<c:forEach var="board" items="${boardList}">
+		<div class="board-item">
+			<h3><a href="#">${board.title}</a></h3>
+			<p>${board.content}</p>
+			<!--  게시글에 작성자가 세션 유저와 동일하다면 수정, 삭제 버튼을 보여주자 -->
+			<a class="btn btn-edit" href="#">수정</a>
+			<a class="btn btn-delete" href="#">삭제</a>
+			
+			
+		</div>
+	</c:forEach>
+	 
+	<div class="board-item">
+		
+	</div>
+	<br>
+	<div class="pagination">
+	<%
+		// localhost:8080/t-board/board/list?page=1
+		// localhost:8080/t-board/board/list?page=2
+		// localhost:8080/t-board/board/list?page=3
+	%>
+		<!--  index of -->
+		<c:forEach begin="1" end="${totalPages}" var=i>
+			<span><a href="${pageContext.request.contextPath}/board/list?page=${i}">${i}</a></span> <br>
+		</c:forEach>
+	
+		
+	</div>
+	
+</body>
+</html>

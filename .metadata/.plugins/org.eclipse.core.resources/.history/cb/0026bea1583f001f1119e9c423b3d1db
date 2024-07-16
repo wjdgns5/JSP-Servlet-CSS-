@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인 페이지</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--  http://localhost:8080/mvc/TEST.jsp -->
+	 <div class="login-container">
+        <form class="login-form">
+            <h2>로그인 페이지</h2>
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id">
+            <label for="pw">PW:</label>
+            <input type="password" id="pw" name="pw">
+            <button type="submit">로그인</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+package com.tenco.tboard.repository.interfaces;
+
+import com.tenco.tboard.model.User;
+
+public interface UserRepository {
+	
+	public abstract void addUser(User user);
+	public abstract void deleteUser(int id);
+	User getUserByusername(String username);
+
+}

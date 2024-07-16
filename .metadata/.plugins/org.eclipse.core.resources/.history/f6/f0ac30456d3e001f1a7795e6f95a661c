@@ -1,0 +1,21 @@
+package com.tenco.model;
+
+import java.util.List;
+
+public interface TodoDAO {
+	
+	// 저장 기능 
+	void addTodo(TodoDTO dto, int principalId);
+	TodoDTO getTodoById(int id);
+	
+	// 사용자 아이디 기준으로 출력 todoList를 뽑는다.
+	List<TodoDTO> getTodosByUserId(int userId);
+	
+	// 전체 리스트 출력
+	List<TodoDTO> getALLTodos();
+	
+	void updateTodo(TodoDTO dto, int principalId);
+	
+	void deleteTodo(int id, int principalId);
+
+}

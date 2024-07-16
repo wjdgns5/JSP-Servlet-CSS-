@@ -1,0 +1,12 @@
+package com.tenco.tboard.repository.interfaces;
+
+public interface BoardRepository {
+	// 게시판 웹 서비스를 개발 ()
+	
+	
+	
+	
+	
+	
+
+}

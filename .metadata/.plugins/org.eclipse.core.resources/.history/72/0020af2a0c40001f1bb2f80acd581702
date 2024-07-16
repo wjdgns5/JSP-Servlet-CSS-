@@ -1,0 +1,5 @@
+package com.tenco.repository;
+
+public class UserDAOImpl {
+
+}

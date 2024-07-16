@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;index2.html&apos; to &apos;index2.html&apos;&#x0D;&#x0A;- Original project: &apos;class_flexbox_02&apos;&#x0D;&#x0A;- Destination element: &apos;index2.html&apos;&#x0D;&#x0A;- Original element: &apos;index2.html&apos;" description="Copy file" element1="src/main/webapp/index2.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1719898269642" target="/class_flexbox_02/src/main/webapp/index2.html" units="0" version="1.0"/>
+</session>

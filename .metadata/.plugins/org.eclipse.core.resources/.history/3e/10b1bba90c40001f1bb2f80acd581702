@@ -1,0 +1,12 @@
+package com.tenco.repository;
+
+/*
+ * 인터페이스 설계 생략..
+ */
+public class UserDAOImpl {
+	
+	private static final String URL = "jdbc:mysql://localhost:3306/db_todo2?serverTimezone=Asia/Seoul";
+	private static final String USER ="root";
+	private static final String PASSWORD="asd123";
+
+}

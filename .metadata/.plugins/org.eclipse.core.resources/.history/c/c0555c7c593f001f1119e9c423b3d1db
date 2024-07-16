@@ -1,0 +1,7 @@
+package com.tenco.model;
+
+public interface UserDAO {
+	
+	int addUser()
+
+}

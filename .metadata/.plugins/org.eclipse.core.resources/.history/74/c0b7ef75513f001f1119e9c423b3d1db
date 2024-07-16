@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+		name="jdbc/MyDB"
+		auth="Container"
+		type="javax.sql.DataSource"
+		factory="com.zaxxer.hikari.HikariJNDIFactory"
+		uniqueResourceName="MyDB"
+		minimumIdle="5"
+		maximumPoolSize ="10"
+		connectionTimeout = "30000"
+		idelTimeout="600000"
+		maxLifetime="1800000"
+		jdbcUrl="jdbc:mysql://localhost:3306/tb_todo?serverTimezone=Asia/Seoul"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		username="root"
+		password="asd123">
+	</Resource>
+</Context>
+
+<!-- - **Resource name="jdbc/MyDB"**: JNDI 이름으로, 애플리케이션에서 이 이름을 통해 데이터 소스를 참조합니다.
+- **auth="Container":** 인증 방식으로, 컨테이너에 의해 인증됨을 의미합니다.
+- **type="javax.sql.DataSource”:** 이 리소스가 DataSource 타입임을 명시합니다.
+- **factory=**"com.zaxxer.hikari.HikariJNDIFactory”: HikariCP의 JNDI 팩토리 클래스를 사용하여 데이터 소스를 생성합니다.
+- **uniqueResourceName="MyDB”**: HikariCP 설정에 사용되는 고유한 리소스 이름입니다.
+- **minimumIdle="5"**: 최소 연결 수를 5로 설정합니다.
+- **maximumPoolSize="10”**: 최대 연결 수를 10으로 설정합니다.
+- **connectionTimeout="30000”**: 연결을 시도할 때 30초(30000 밀리초) 동안 대기합니다.
+- **idleTimeout="600000”**: 유휴 상태의 연결을 10분(600000 밀리초) 동안 유지합니다.
+- **maxLifetime="1800000”**: 연결의 최대 수명을 30분(1800000 밀리초)으로 설정합니다.
+- **driverClassName="com.mysql.cj.jdbc.Driver"**: MySQL JDBC 드라이버 클래스 이름입니다. -->

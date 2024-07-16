@@ -1,0 +1,5 @@
+package com.tenco.tboard.model;
+
+public class User {
+
+}

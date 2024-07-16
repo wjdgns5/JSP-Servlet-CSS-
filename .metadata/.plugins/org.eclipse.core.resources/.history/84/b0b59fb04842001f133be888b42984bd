@@ -1,0 +1,9 @@
+package com.tenco.tboard.util;
+
+import javax.sql.DataSource;
+
+public class DBUtil {
+	
+	private static DataSource dataSource;
+
+}

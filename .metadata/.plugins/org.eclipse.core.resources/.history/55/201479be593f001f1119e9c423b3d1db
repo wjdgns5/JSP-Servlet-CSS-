@@ -1,0 +1,11 @@
+package com.tenco.model;
+
+public class UserDTO {
+	
+	private int id;
+	private String username;
+	private String password;
+	private String email;
+	private String createAt;
+
+}

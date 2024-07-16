@@ -1,0 +1,7 @@
+package com.tenco.tboard.util;
+
+public class DBUtilBasic {
+	
+	private static final String DB_URL = "jdbc:mysql://localhost:3306/db_tboard";
+
+}

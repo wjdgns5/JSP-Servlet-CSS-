@@ -1,0 +1,10 @@
+package com.tenco.repository;
+
+/*
+ * 인터페이스 설계 생략..
+ */
+public class UserDAOImpl {
+	
+	
+
+}

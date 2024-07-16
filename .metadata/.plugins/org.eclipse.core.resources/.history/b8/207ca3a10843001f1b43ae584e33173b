@@ -1,0 +1,15 @@
+package com.tenco.tboard.repository.interfaces;
+
+import com.tenco.tboard.model.Board;
+
+public interface BoardRepository {
+	// 게시판 웹 서비스를 개발 ()
+	
+	// C R U D 기본
+	void addBoard(Board board);
+	void updateBoard(Board board, int principalId);
+	void deleteBoard(int id, int principalId)
+	
+	
+
+} // end of BoardRepository

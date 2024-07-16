@@ -1,0 +1,10 @@
+package com.tenco.tboard.repository.interfaces;
+
+import com.tenco.tboard.model.User;
+
+public interface UserRepository {
+	
+	void addUser(User user);
+	
+	
+} // end of UserRepository

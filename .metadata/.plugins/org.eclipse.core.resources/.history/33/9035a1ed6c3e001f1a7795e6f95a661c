@@ -1,0 +1,10 @@
+package com.tenco.model;
+
+public interface TodoDAO {
+	
+	// 저장 기능 
+	void addTodo(TodoDTO dto, int principalId);
+	
+	TodoDTO getTodoById(int id);
+
+}

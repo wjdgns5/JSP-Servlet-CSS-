@@ -1,0 +1,52 @@
+package com.tenco.model;
+
+import java.util.List;
+
+import javax.sql.DataSource;
+
+public class UserDAOImpl implements UserDAO {
+	
+	private DataSource dataSource;
+	
+	
+
+	@Override
+	public UserDTO addUser(UserDTO userDTO) {
+		
+		return null;
+	}
+
+	@Override
+	public UserDTO getUserById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserDTO getUserByUsername(String username) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<UserDTO> getAllUsers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserDTO getUserUpdate(UserDTO userDTO, int printcipalId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserDTO getUserDelete(UserDTO userDTO) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	
+	
+}

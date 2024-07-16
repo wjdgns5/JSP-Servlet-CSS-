@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+		name="jdbc/MyDB"
+		auth="Container"
+		type="javax.sql.DataSource"
+		factory="com.zaxxer.hikari.HikariJNDIFactory"
+		uniqueResourceName="MyDB"
+		minimumIdle="5"
+		maximumPoolSize ="10"
+		
+		
+			>
+	</Resource>
+</Context>

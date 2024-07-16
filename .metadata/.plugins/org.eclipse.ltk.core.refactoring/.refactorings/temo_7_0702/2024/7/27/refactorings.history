@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;temo_7_0702&apos;&#x0D;&#x0A;- Original project: &apos;temo_7_0702&apos;&#x0D;&#x0A;- Original element: &apos;com.tenco.controller.SessionTestServlet.java&apos;" description="Delete element" element1="/src\/main\/java&lt;com.tenco.controller{SessionTestServlet.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1719908009083" subPackages="false" version="1.0"/>
+</session>
