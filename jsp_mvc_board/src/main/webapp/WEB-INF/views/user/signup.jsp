@@ -24,7 +24,7 @@
 				<label for="password">Password :</label>
 				<input type="text" id="password" name="password" value="asd1234" required="required">
 			</div>
-			
+				
 			<div class="form-group">
 				<label for="email">Email :</label>
 				<input type="email" id="email" name="email" value="a@naver.com" required="required">

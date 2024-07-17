@@ -1,0 +1,81 @@
+package com.tenco.tboard.controller;
+
+import java.io.IOException;
+
+import com.tenco.tboard.model.Comment;
+import com.tenco.tboard.repository.CommnetRepositoryImpl;
+import com.tenco.tboard.repository.interfaces.CommentRepository;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import lombok.Builder;
+@WebServlet("/comment/*")
+public class CommentController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	private CommentRepository commentRepository;
+       
+    public CommentController() {
+        super();
+    }
+    
+    @Override
+    public void init() throws ServletException {
+    	commentRepository = new CommnetRepositoryImpl();
+    }
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String action = request.getPathInfo();
+		System.out.println("doGet action : " +action);
+		
+		switch (action) {
+		case "/add":
+			break;
+
+		default:
+			break;
+		}
+		
+	}
+	// ///////////////////////////////////////////////////
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String action = request.getPathInfo();
+		System.out.println("doPost action : " +action);
+		
+		switch (action) {
+		case "/add":
+			addCommet(request, response);
+			break;
+
+		default:
+			response.sendError(HttpServletResponse.SC_NOT_FOUND);
+			break;
+		}
+		
+	}
+	/**
+	 * 댓글 추가
+	 * @param request
+	 * @param response
+	 */
+	private void addCommet(HttpServletRequest request, HttpServletResponse response) {
+		
+		String content = request.getParameter("content");
+		
+		Comment comment = Comment.builder().
+		
+		.id(comment.getId())
+		.boardId(comment.getBoardId())
+		.userId(comment.getUserId())
+		.username(comment.getUsername())
+		.content(content)
+		.createdAt(comment.getCreatedAt())
+		.build();
+		
+		commentRepository.addComment(comment);
+	}
+
+}

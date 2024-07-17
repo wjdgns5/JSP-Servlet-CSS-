@@ -1,0 +1,12 @@
+package com.tenco.tboard.model;
+
+import java.sql.Timestamp;
+
+public class Comment {
+	
+	private int id;
+	private int board_id;
+	private String content;
+	private Timestamp createdAt;
+
+}

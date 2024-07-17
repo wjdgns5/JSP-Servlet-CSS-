@@ -1,0 +1,13 @@
+package com.tenco.tboard.repository.interfaces;
+
+import com.tenco.tboard.model.Comment;
+
+public interface CommentRepository {
+	
+	// 댓글 기능 이라면?
+	// C R U D 개념을 생각한다.
+	
+	// 댓글 추가
+	void addComment(Comment comment);
+	
+}

@@ -10,6 +10,28 @@
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/signin.css">
 </head>
 <body>
+		
+		<div class="container">
+		<h2>회원가입</h2>
+		<form action="${pageContext.request.contextPath}/user/signup" method="post" >
+			<div class="form-group">
+				<label for="username">Username : </label>
+				<input type="text" id="username" name="username" value="고길동" required>
+			</div>
+			<div class="form-group">
+				<label for="password">Password : </label>
+				<input type="text" id="password" name="password" value="asd1234" required>
+			</div>
+			<div class="form-group">
+				<label for=""email"">Email : </label>
+				<input type="email" id="email" name="email" value="a@naver.com" required>
+			</div>
+			<div class="form-group">
+				<input class="btn btn-primary" type="submit" value="회원가입" >
+			</div>
+		</form>
+	</div>
 	
+		
 </body>
 </html>
