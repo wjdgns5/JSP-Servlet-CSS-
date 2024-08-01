@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="C:\Program Files\Java\jdk-17" stamp="1717384357826"/>
     <entry loc="D:\tools\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830" stamp="1717478336164"/>
-    <entry loc="C:\Program Files\Amazon Corretto\jdk17.0.10_7" stamp="1712539026095"/>
-    <entry loc="D:\tools\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre" stamp="1717478336106"/>
+    <entry loc="C:\Program Files\Amazon Corretto\jdk17.0.10_7" stamp="1712539039018"/>
+    <entry loc="D:\tools\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre" stamp="1716343689934"/>
 </dirs>

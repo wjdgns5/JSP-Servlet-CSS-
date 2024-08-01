@@ -142,7 +142,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\work_web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\work_web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\jsp_mvc_board(test)" path="/t-board" reloadable="true" source="org.eclipse.jst.jee.server:jsp_mvc_board(test)">
+      <Context docBase="C:\JSP-Servlet-CSS-\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\JSP-Servlet-CSS-\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\jsp_mvc_board(test)" path="/t-board" reloadable="true" source="org.eclipse.jst.jee.server:jsp_mvc_board(test)">
 	<Resource auth="Container" connectionTimeout="30000" driverClassName="com.mysql.cj.jdbc.Driver" factory="com.zaxxer.hikari.HikariJNDIFactory" idleTimeout="60000" jdbcUrl="jdbc:mysql://localhost:3306/db_tboard?serverTimezone=Asia/Seoul" maxLifetime="1800000" maximumPoolSize="10" minimumIdle="5" name="jdbc/tboard" password="asd123" type="javax.sql.DataSource" uniqueResourceName="MyTboard" username="root">
 	</Resource>
 	

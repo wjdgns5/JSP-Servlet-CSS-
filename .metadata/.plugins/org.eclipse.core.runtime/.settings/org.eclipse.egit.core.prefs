@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\work_web\\demo_2\\.git;C\:\\work_web\\jsp_todo_mvc_JSTL_v1\\.git;C\:\\work_web\\Servers\\.git;C\:\\work_web\\demo_3\\.git;C\:\\work_web\\hello_servlet\\.git;
-GitRepositoriesView.GitDirectories.relative=demo_2\\.git;jsp_todo_mvc_JSTL_v1\\.git;Servers\\.git;demo_3\\.git;hello_servlet\\.git;
+GitRepositoriesView.GitDirectories=C\:\\JSP-Servlet-CSS-\\demo_2\\.git;C\:\\JSP-Servlet-CSS-\\hello_servlet\\.git;C\:\\JSP-Servlet-CSS-\\demo_3\\.git;C\:\\JSP-Servlet-CSS-\\jsp_todo_mvc_JSTL_v1\\.git;C\:\\JSP-Servlet-CSS-\\Servers\\.git;C\:\\JSP-Servlet-CSS-\\.git;
+GitRepositoriesView.GitDirectories.relative=demo_2\\.git;hello_servlet\\.git;demo_3\\.git;jsp_todo_mvc_JSTL_v1\\.git;Servers\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
